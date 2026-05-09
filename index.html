@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PetCare - Family Pet Organizer for iPhone</title>
+    <meta name="description" content="PetCare is a shared family pet organizer. Track feedings, walks, vet visits, and medications together. No more asking 'Who fed the dog?'">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🐾</text></svg>">
+</head>
+<body>
+    <header class="header">
+        <div class="header-container">
+            <a href="#" class="logo">
+                <span class="logo-paw">🐾</span>
+                <span class="logo-text">PetCare</span>
+            </a>
+            <nav class="nav">
+                <a href="#features" class="nav-link">Features</a>
+                <a href="#screenshots" class="nav-link">Screenshots</a>
+                <a href="#faq" class="nav-link">FAQ</a>
+            </nav>
+            <a href="#download" class="btn btn-primary header-cta">Download</a>
+            <button class="mobile-menu-btn" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Mobile Navigation -->
+    <div class="mobile-nav">
+        <a href="#features" class="mobile-nav-link">Features</a>
+        <a href="#screenshots" class="mobile-nav-link">Screenshots</a>
+        <a href="#faq" class="mobile-nav-link">FAQ</a>
+        <a href="#download" class="btn btn-primary mobile-download">Download</a>
+    </div>
+
+    <section class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    No more <span class="gradient-text">"Who fed the dog?"</span>
+                </h1>
+                <p class="hero-subtitle">
+                    PetCare is the shared family pet organizer that keeps everyone on the same page.
+                    Track feedings, walks, vet visits, and medications — all in one place.
+                </p>
+                <div class="hero-cta">
+                    <a href="#download" class="btn btn-primary btn-large">
+                        <svg class="apple-icon" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.81-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/>
+                        </svg>
+                        Download on App Store
+                    </a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <span class="stat-number">10+</span>
+                        <span class="stat-label">Activity Types</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">100%</span>
+                        <span class="stat-label">Real-time Sync</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">14</span>
+                        <span class="stat-label">Achievements</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="hero-screenshot">
+                    <img src="img/Screenshot 2026-05-08 alle 23.25.png" alt="PetCare App - Daily Calendar View" class="hero-phone-img">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Screenshots Section -->
+    <section id="screenshots" class="screenshots">
+        <div class="container">
+            <h2 class="section-title">See PetCare <span class="gradient-text">in Action</span></h2>
+            <p class="section-subtitle">A clean, intuitive interface designed to make pet care effortless for the whole family</p>
+            <div class="screenshots-gallery">
+                <div class="screenshot-card">
+                    <img src="img/Screenshot 2026-05-08 alle 23.49.png" alt="PetCare Daily View with Calendar" class="screenshot-img">
+                </div>
+                <div class="screenshot-card">
+                    <img src="img/Screenshot 2026-05-08 alle 23.49 copia.png" alt="PetCare New Activity Screen" class="screenshot-img">
+                </div>
+                <div class="screenshot-card">
+                    <img src="img/Screenshot 2026-05-08 alle 23.26 copia.png" alt="PetCare Pet Profile" class="screenshot-img">
+                </div>
+                <div class="screenshot-card">
+                    <img src="img/Screenshot 2026-05-08 alle 23.50.png" alt="PetCare Statistics Dashboard" class="screenshot-img">
+                </div>
+                <div class="screenshot-card">
+                    <img src="img/Screenshot 2026-05-08 alle 23.50 copia.png" alt="PetCare Achievements" class="screenshot-img">
+                </div>
+                <div class="screenshot-card">
+                    <img src="img/Screenshot 2026-05-08 alle 23.27.png" alt="PetCare Family Sharing" class="screenshot-img">
+                </div>
+                <div class="screenshot-card">
+                    <img src="img/Screenshot 2026-05-08 alle 23.27 copia.png" alt="PetCare Care Progress" class="screenshot-img">
+                </div>
+                <div class="screenshot-card">
+                    <img src="img/Screenshot 2026-05-08 alle 23.26.png" alt="PetCare Pet Info" class="screenshot-img">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <div class="container">
+            <h2 class="section-title">Everything Your Family Needs to <span class="gradient-text">Care Together</span></h2>
+            <p class="section-subtitle">A shared calendar built specifically for your pets — so nobody drops the ball</p>
+
+            <div class="features-group">
+                <h3 class="features-group-title">Daily Care</h3>
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <rect x="3" y="4" width="18" height="18" rx="2" ry="2"/>
+                                <line x1="16" y1="2" x2="16" y2="6"/>
+                                <line x1="8" y1="2" x2="8" y2="6"/>
+                                <line x1="3" y1="10" x2="21" y2="10"/>
+                            </svg>
+                        </div>
+                        <h4 class="feature-title">Daily View + Calendar</h4>
+                        <p class="feature-desc">See what's been done today and plan ahead. A weekly calendar strip gives you a clear picture of every pet's schedule at a glance.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+                            </svg>
+                        </div>
+                        <h4 class="feature-title">Activity Logging</h4>
+                        <p class="feature-desc">Log walks, meals, vet visits, medications, grooming, training, playtime, and more. Each activity is tracked with who did it and when.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/>
+                            </svg>
+                        </div>
+                        <h4 class="feature-title">Recurring Tasks</h4>
+                        <p class="feature-desc">Set up repeating activities like daily walks, weekly medications, or monthly grooming. PetCare reminds you so nothing falls through the cracks.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="features-group">
+                <h3 class="features-group-title">Family & Insights</h3>
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+                                <circle cx="9" cy="7" r="4"/>
+                                <path d="M23 21v-2a4 4 0 0 0-3-3.87"/>
+                                <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+                            </svg>
+                        </div>
+                        <h4 class="feature-title">Shared Family Access</h4>
+                        <p class="feature-desc">Invite your whole household. Everyone sees the same pets and activities in real-time, powered by Firebase sync. No more double-feeding.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <line x1="18" y1="20" x2="18" y2="10"/>
+                                <line x1="12" y1="20" x2="12" y2="4"/>
+                                <line x1="6" y1="20" x2="6" y2="14"/>
+                            </svg>
+                        </div>
+                        <h4 class="feature-title">Stats & Insights</h4>
+                        <p class="feature-desc">Track completion rates, streaks, and weekly activity charts. See patterns in your pet care routines and know exactly how your family is doing.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <circle cx="12" cy="8" r="6"/>
+                                <path d="M15.477 12.89L17 22l-5-3-5 3 1.523-9.11"/>
+                            </svg>
+                        </div>
+                        <h4 class="feature-title">Achievements & XP</h4>
+                        <p class="feature-desc">Earn XP and unlock 14 achievements like Early Bird, Night Owl, and Walking Champion. Build healthy care habits and level up as a caretaker.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="features-group">
+                <h3 class="features-group-title">Pet Profiles</h3>
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
+                            </svg>
+                        </div>
+                        <h4 class="feature-title">Pet Profiles</h4>
+                        <p class="feature-desc">Store each pet's photo, name, species, breed, birth date, and notes. Everything about your pet in one place — their own little profile page.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"/>
+                                <path d="M13.73 21a2 2 0 0 1-3.46 0"/>
+                            </svg>
+                        </div>
+                        <h4 class="feature-title">Push Notifications</h4>
+                        <p class="feature-desc">Get reminded when tasks are due so nobody forgets their part. Overdue activities are clearly marked so the whole family stays accountable.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <rect x="3" y="3" width="18" height="18" rx="2"/>
+                                <path d="M3 9h18"/>
+                                <path d="M9 21V9"/>
+                            </svg>
+                        </div>
+                        <h4 class="feature-title">Apple-Native Design</h4>
+                        <p class="feature-desc">Built with Cupertino design principles for a clean, familiar feel. PetCare looks and feels right at home on your iPhone.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+        <div class="container">
+            <h2 class="section-title">Loved by <span class="gradient-text">Pet Families</span></h2>
+            <p class="section-subtitle">See what pet parents are saying about PetCare</p>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="stars">
+                        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                    </div>
+                    <p class="testimonial-text">"We have two dogs and a cat, and my husband and I were always stepping on each other's toes. Now we just check the app. Game changer."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">LM</div>
+                        <div class="author-info">
+                            <span class="author-name">Laura M.</span>
+                            <span class="author-title">Dog & Cat Mom</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="stars">
+                        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                    </div>
+                    <p class="testimonial-text">"My kids actually remember to walk the dog now because they want to keep their streak going. The achievements system is genius."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">JR</div>
+                        <div class="author-info">
+                            <span class="author-name">James R.</span>
+                            <span class="author-title">Dad of 3</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="stars">
+                        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                    </div>
+                    <p class="testimonial-text">"Our elderly cat needs medication twice a day. PetCare makes sure it never gets missed, even when I'm traveling and my partner is in charge."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">SK</div>
+                        <div class="author-info">
+                            <span class="author-name">Sofia K.</span>
+                            <span class="author-title">Cat Parent</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="stars">
+                        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                    </div>
+                    <p class="testimonial-text">"The stats page is so satisfying. I can actually see our care consistency improving week over week. Love the clean Apple-style design too."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">DT</div>
+                        <div class="author-info">
+                            <span class="author-name">Daniel T.</span>
+                            <span class="author-title">Dog Dad</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="stars">
+                        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                    </div>
+                    <p class="testimonial-text">"I'm a vet tech and I recommend this to clients all the time. Keeping a log of activities makes my job so much easier during checkups."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">AN</div>
+                        <div class="author-info">
+                            <span class="author-name">Amy N.</span>
+                            <span class="author-title">Vet Technician</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="stars">
+                        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                    </div>
+                    <p class="testimonial-text">"Finally solved the 'did you feed the cat?' argument in our house. Simple, fast, and everyone in the family actually uses it."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">MP</div>
+                        <div class="author-info">
+                            <span class="author-name">Marco P.</span>
+                            <span class="author-title">Multi-pet Household</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="faq">
+        <div class="container">
+            <h2 class="section-title">Frequently Asked <span class="gradient-text">Questions</span></h2>
+            <p class="section-subtitle">Everything you need to know about PetCare</p>
+            <div class="faq-list">
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>How does family sharing work?</span>
+                        <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="6 9 12 15 18 9"/>
+                        </svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p>One family member creates the family group, then invites others via a simple link. Everyone who joins sees the same pets, activities, and calendar in real-time. All data syncs instantly through Firebase.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>What types of activities can I track?</span>
+                        <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="6 9 12 15 18 9"/>
+                        </svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p>PetCare supports walks, meals, vet visits, medications, grooming, training, playtime, vaccinations, deworming, and a custom "Other" category. Each activity type has smart title suggestions to speed up logging.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>Is PetCare free to use?</span>
+                        <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="6 9 12 15 18 9"/>
+                        </svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Yes! PetCare is free to download and use with all core features included. There's an optional premium tier that unlocks deeper statistics, advanced insights, and additional features for power users.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>What devices does PetCare support?</span>
+                        <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="6 9 12 15 18 9"/>
+                        </svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p>PetCare is available for iPhone and iPad. It's built with native Apple design principles (Cupertino style) and requires iOS 16.0 or later.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>Is my data secure?</span>
+                        <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="6 9 12 15 18 9"/>
+                        </svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Absolutely. PetCare uses Firebase for secure cloud storage and authentication. Your data is encrypted and only accessible to members of your family group. We never sell or share your information.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Download Section -->
+    <section id="download" class="download">
+        <div class="container">
+            <div class="download-content">
+                <h2 class="download-title">Ready to Get Your Family <span class="gradient-text">on the Same Page?</span></h2>
+                <p class="download-subtitle">Download PetCare and never wonder "Who fed the dog?" again.</p>
+                <a href="#" class="btn btn-primary btn-large">
+                    <svg class="apple-icon" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.81-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/>
+                    </svg>
+                    Download on App Store
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="logo">
+                        <span class="logo-paw">🐾</span>
+                        <span class="logo-text">PetCare</span>
+                    </div>
+                    <p class="footer-desc">The family pet organizer that keeps everyone on the same page. Available on iOS.</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4>Product</h4>
+                        <a href="#features">Features</a>
+                        <a href="#screenshots">Screenshots</a>
+                        <a href="#download">Download</a>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Support</h4>
+                        <a href="#faq">FAQ</a>
+                        <a href="mailto:davidemiron30@gmail.com">Contact</a>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Legal</h4>
+                        <a href="#">Privacy Policy</a>
+                        <a href="#">Terms of Service</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 PetCare. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
